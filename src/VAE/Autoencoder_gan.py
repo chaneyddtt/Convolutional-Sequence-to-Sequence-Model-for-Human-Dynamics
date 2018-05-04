@@ -151,10 +151,10 @@ class Autoenc_gan():
                 for action in dataset.actions:
                     encoder_data, discriminator, yhat = dataset.get_test_batch(action)
                     self.TestSample(sess, encoder_data, discriminator,action)
-            if(self.steps % 200 == 0):
+            if(self.steps % 2000 == 0):
                 self.InferenceSample(sess, dataset,self.steps)
                 #self.Saver.save(sess, self.modelname, global_step=self.steps)
-            if(self.steps % 200 == 0):
+            if(self.steps % 2000 == 0):
                 self.Saver.save(sess, 'Models/'+self.modelname, global_step=self.steps)
 
         self.Saver.save(sess, 'Models/'+self.modelname, global_step=self.steps)
