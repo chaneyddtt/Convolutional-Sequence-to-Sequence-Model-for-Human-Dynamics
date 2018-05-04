@@ -1,6 +1,8 @@
 # Convolutional-Sequence-to-Sequence-Model-for-Human-Dynamics
 This is the source code of the paper 
+
 Chen Li, Zhen Zhang, Wee Sun Lee, Gim Hee Lee. Convolutional Sequence to Sequence Model for Human Dynamics. In CVPR2018.
+
 The paper can be available on arxiv: http://arxiv.org/abs/1805.00655.pdf
 
 Dependencies
@@ -28,4 +30,5 @@ or run:
 python src/forward_kinematics_cmu.py (for the CMU dataset)
 
 Acknowledgments
+
 The pre-processed human3.6 dataset and some of our evaludation code was ported or adapted from SRNN [@asheshjain399](https://github.com/asheshjain399/RNNexp) and RRNN by [@una-dinosauria](https://github.com/una-dinosauria/human-motion-prediction).
