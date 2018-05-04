@@ -14,14 +14,17 @@ To train the model with the default arguments,run:
 python src/AC_main.py 
 
 You can also change the arguments during training, for example,you can change the training dataset to CMU dataset by run:
+
 python src/AC_main.py --dataset cmu
 
 You can also change other arguments in the AC_main.py in a similar way.
 
 To visualize the predicted results, run:
+
 python src/forward_kinematics.py (you have to specify the sample file in the code)
 
 or run:
+
 python src/forward_kinematics_cmu.py (for the CMU dataset)
 
 Acknowledgments
