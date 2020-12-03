@@ -73,7 +73,7 @@ model_name = 'CNNAdTrain_GANWEIGHT%f_Sampling%fWindownLength%d' % (args.gan_loss
 VAETrain = VAE.Autoencoder_gan.Autoenc_gan(encoder,
                                            decoder,
                                            discriminator,
-                                           [None, 75, inputDimension, 1] if not args.is_sampling else [None,50+args.output_length,70,1],
+                                           [None, 75, inputDimension, 1] if not args.is_sampling else [None,50+args.output_length,inputDimension,1],
                                            50,
                                            25 if not args.is_sampling else args.output_length,
                                            modelname=model_name,
