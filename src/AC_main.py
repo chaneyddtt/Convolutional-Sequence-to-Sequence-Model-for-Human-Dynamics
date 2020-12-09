@@ -94,4 +94,4 @@ with tf.Session() as sess:
     else:
         # VAETrain.Saver.restore(sess,'./Models/Models_kernel54/{}-{}'.format(model_name,args.checkpoint))
         VAETrain.Saver.restore(sess, './Models/{}-{}'.format(model_name, args.checkpoint))
-        VAETrain.InferenceSample(sess,dloader)
+        VAETrain.InferenceSample(sess,dloader,args.checkpoint)
