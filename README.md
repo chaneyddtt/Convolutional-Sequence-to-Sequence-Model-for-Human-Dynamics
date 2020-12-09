@@ -41,6 +41,14 @@ python src/AC_main.py --dataset cmu
 ```
 You can also change other arguments in the AC_main.py in a similar way.
 
+**Test**
+
+Run:
+```
+python src/AC_main.py --is_sampling True --checkpoint 24000 (if you are using the pretrained model)
+```
+You will specify 'checkpoint' to other value if you use your own model. This command will also generate the sample file which you can use for visualization.  
+
  **Visualize**
  
 To visualize the predicted results, run:
