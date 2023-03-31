@@ -12,13 +12,13 @@ The paper proposes a Convolotinal sequence-to-sequence model for human motion pr
 
 Bibtex:
 ```
-@InProceedings{Li_2018_CVPR,
-author = {Li, Chen and Zhang, Zhen and Sun Lee, Wee and Hee Lee, Gim},
-title = {Convolutional Sequence to Sequence Model for Human Dynamics},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2018}
-} 
+@inproceedings{li2018convolutional,
+  title={Convolutional sequence to sequence model for human dynamics},
+  author={Li, Chen and Zhang, Zhen and Lee, Wee Sun and Lee, Gim Hee},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={5226--5234},
+  year={2018}
+}
 ```
 
 **Dependencies**
